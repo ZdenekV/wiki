@@ -134,7 +134,7 @@ class WikiSearcher:
 
     def __chose_article(self, articles):
         if self.__article_titles_relevance: message_text = "Nalezené články - zvolte článek"
-        else: message_text = "Článek s názvem {p} nebyl nalzen, ale hledaná fráze je součást těchto článků - zvolte článek".format(p=self.phrase)
+        else: message_text = "Článek s názvem {p} nebyl nalezen, ale hledaná fráze je součást těchto článků - zvolte článek".format(p=self.phrase)
 
         questions = [
         inquirer.List('article',

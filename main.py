@@ -5,4 +5,4 @@ if phrase:
     wiki = WikiSearcher(phrase)
     wiki.search() 
 else:
-    print("Vyhedávání ukončeno - pro vyhledávání je nutno zadat výraz")
+    print("Vyhledávání ukončeno - pro vyhledávání je nutno zadat výraz")
